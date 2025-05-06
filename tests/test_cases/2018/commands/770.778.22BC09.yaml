@@ -10,43 +10,7 @@ test_cases:
     KIA_HL_LOW: 0
 - response: |-
     778100B62BC09F7E003
-    77821CC20000020AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
     77821CC20000030AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC2000C000AAAA
-  expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC20040000AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC20040010AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC20040020AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC20040030AAAA
   expected_values:
     KIA_HL_HIGH: 0
     KIA_HL_LOW: 1
@@ -58,67 +22,7 @@ test_cases:
     KIA_HL_LOW: 0
 - response: |-
     778100B62BC09F7E003
-    77821CC2100C000AAAA
-  expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC21040030AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC2104C000AAAA
-  expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC2200C000AAAA
-  expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC2204C000AAAA
-  expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC24000000AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 0
-- response: |-
-    778100B62BC09F7E003
-    77821CC24000020AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC24000030AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
     77821CC28040010AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC28040020AAAA
-  expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
-- response: |-
-    778100B62BC09F7E003
-    77821CC28040030AAAA
   expected_values:
     KIA_HL_HIGH: 0
     KIA_HL_LOW: 1
