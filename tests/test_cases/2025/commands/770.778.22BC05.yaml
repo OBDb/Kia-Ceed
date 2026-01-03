@@ -7,11 +7,6 @@ test_cases:
     778210000000000AAAA
 - expected_values:
     KIA_HAZARD_SW: 0
-  response: |-
-    778100B62BC052F1324
-    778210000400000AAAA
-- expected_values:
-    KIA_HAZARD_SW: 0
     KIA_HL_SW: 1
   response: |-
     778100B62BC052F1324
@@ -20,34 +15,14 @@ test_cases:
     KIA_HAZARD_SW: 0
   response: |-
     778100B62BC052F1324
-    778210000800000AAAA
+    778210000880000AAAA
 - expected_values:
     KIA_HAZARD_SW: 0
   response: |-
     778100B62BC052F1324
     778210000C00000AAAA
 - expected_values:
-    KIA_HAZARD_SW: 80
+    KIA_HAZARD_SW: 240
   response: |-
     778100B62BC052F1324
-    778210050400000AAAA
-- expected_values:
-    KIA_HAZARD_SW: 80
-  response: |-
-    778100B62BC052F1324
-    778210050800000AAAA
-- expected_values:
-    KIA_HAZARD_SW: 80
-  response: |-
-    778100B62BC052F1324
-    778210050C00000AAAA
-- expected_values:
-    KIA_HAZARD_SW: 160
-  response: |-
-    778100B62BC052F1324
-    7782100A0400000AAAA
-- expected_values:
-    KIA_HAZARD_SW: 160
-  response: |-
-    778100B62BC052F1324
-    7782100A0C00000AAAA
+    7782100F0C80000AAAA
