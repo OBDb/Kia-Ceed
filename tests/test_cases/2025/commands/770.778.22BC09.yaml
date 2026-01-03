@@ -1,0 +1,50 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 0
+  response: |-
+    778100B62BC0937E000
+    778213F60000000AAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F6000000CAAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F60000030AAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 0
+  response: |-
+    778100B62BC0937E000
+    778213F60040000AAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F6004000CAAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F60040010AAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F60040020AAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
+    778213F60040030AAAA
