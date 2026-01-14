@@ -14,6 +14,17 @@ test_cases:
 - expected_values:
     KIA_BELT_RL: 0
     KIA_BELT_RM: 0
+    KIA_BELT_RR: 0
+    KIA_GEAR_R: 0
+    KIA_LOCK_FL: 0
+    KIA_LOCK_FR: 0
+    KIA_REVERSE_GEAR: 0
+  response: |-
+    778100B62BC04B02370
+    778212800000004AAAA
+- expected_values:
+    KIA_BELT_RL: 0
+    KIA_BELT_RM: 0
     KIA_BELT_RR: 1
     KIA_GEAR_R: 0
     KIA_LOCK_FL: 0
