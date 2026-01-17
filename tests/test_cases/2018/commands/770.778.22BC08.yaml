@@ -24,3 +24,9 @@ test_cases:
   response: |-
     778100B62BC08005790
     77821BC000A011CAAAA
+- expected_values:
+    KIA_TURN_L: 0
+    KIA_TURN_R: 0
+  response: |-
+    778100B62BC08005790
+    77821BC00C0011CAAAA
