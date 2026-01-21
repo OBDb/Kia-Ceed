@@ -1,0 +1,9 @@
+command_id: 7D4.7DC.2101
+test_cases:
+- expected_values:
+    KIA_STEER_ANGLE_V2: 25.5
+  response: |-
+    7DC101761010DFA0100
+    7DC212DFC00000000FF
+    7DC22FF00161E640000
+    7DC2300006C00000000
