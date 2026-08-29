@@ -11,6 +11,12 @@ test_cases:
     KIA_HL_LOW: 1
   response: |-
     778100B62BC0937E000
+    778213F2000000CAAAA
+- expected_values:
+    KIA_HL_HIGH: 0
+    KIA_HL_LOW: 1
+  response: |-
+    778100B62BC0937E000
     778213F20000030AAAA
 - expected_values:
     KIA_HL_HIGH: 0
