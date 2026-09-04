@@ -609,7 +609,6 @@
           "id": "KIA_BMS_SOC",
           "name": "BMS state of charge",
           "path": "Battery",
-          "suggestedMetric": "stateOfCharge",
           "fmt": {
             "bix": 32,
             "len": 8,
