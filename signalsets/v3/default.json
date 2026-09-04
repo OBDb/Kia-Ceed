@@ -136,7 +136,7 @@
         },
         {
           "id": "KIA_REVERSE_GEAR",
-          "name": "Reverse gear selected",
+          "name": "Reverse gear selected (variant A, bit 36)",
           "path": "Transmission",
           "fmt": {
             "bix": 36,
@@ -147,7 +147,7 @@
         },
         {
           "id": "KIA_GEAR_R",
-          "name": "Reverse gear selected",
+          "name": "Reverse gear selected (variant B, bit 35)",
           "path": "Transmission",
           "fmt": {
             "bix": 35,
@@ -591,7 +591,7 @@
         },
         {
           "id": "KIA_ODO_KM",
-          "name": "Odometer",
+          "name": "Odometer (km)",
           "path": "Trips",
           "suggestedMetric": "odometer",
           "fmt": {
@@ -603,7 +603,7 @@
         },
         {
           "id": "KIA_ODO_MI",
-          "name": "Odometer",
+          "name": "Odometer (miles)",
           "path": "Trips",
           "suggestedMetric": "odometer",
           "fmt": {
@@ -757,20 +757,6 @@
           }
         },
         {
-          "id": "KIA_IAT",
-          "name": "Intake air temperature",
-          "path": "Engine",
-          "fmt": {
-            "bix": 264,
-            "len": 8,
-            "max": 143.254781,
-            "div": 1.3333,
-            "add": -48,
-            "unit": "celsius",
-            "min": 0
-          }
-        },
-        {
           "id": "KIA_EOT",
           "name": "Engine oil temperature",
           "path": "Engine",
@@ -779,10 +765,11 @@
             "bix": 272,
             "len": 8,
             "max": 143.254781,
-            "div": 1.3333,
+            "div": 4,
             "add": -48,
             "unit": "celsius",
-            "min": 0
+            "min": 0,
+            "mul": 3
           }
         }
       ]
@@ -802,7 +789,6 @@
           "id": "KIA_AUX_SOC",
           "name": "Aux battery state of charge",
           "path": "Battery",
-          "suggestedMetric": "stateOfCharge",
           "fmt": {
             "bix": 320,
             "len": 8,
@@ -814,7 +800,6 @@
           "id": "KIA_AUX_SOH",
           "name": "Aux battery state of health",
           "path": "Battery",
-          "suggestedMetric": "stateOfHealth",
           "fmt": {
             "bix": 328,
             "len": 8,
