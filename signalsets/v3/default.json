@@ -340,6 +340,7 @@
           "id": "KIA_TP_FL",
           "name": "Front left tire pressure",
           "path": "Tires",
+          "suggestedMetric": "frontLeftTirePressure",
           "fmt": {
             "bix": 32,
             "len": 8,
@@ -353,6 +354,7 @@
           "id": "KIA_TP_FR",
           "name": "Front right tire pressure",
           "path": "Tires",
+          "suggestedMetric": "frontRightTirePressure",
           "fmt": {
             "bix": 72,
             "len": 8,
@@ -366,6 +368,7 @@
           "id": "KIA_TP_RL",
           "name": "Rear left tire pressure",
           "path": "Tires",
+          "suggestedMetric": "rearLeftTirePressure",
           "fmt": {
             "bix": 112,
             "len": 8,
@@ -379,6 +382,7 @@
           "id": "KIA_TP_RR",
           "name": "Rear right tire pressure",
           "path": "Tires",
+          "suggestedMetric": "rearRightTirePressure",
           "fmt": {
             "bix": 152,
             "len": 8,
@@ -392,6 +396,7 @@
           "id": "KIA_TT_FL",
           "name": "Front left tire temperature",
           "path": "Tires",
+          "suggestedMetric": "frontLeftTireTemperature",
           "fmt": {
             "bix": 40,
             "len": 8,
@@ -406,6 +411,7 @@
           "id": "KIA_TT_FR",
           "name": "Front right tire temperature",
           "path": "Tires",
+          "suggestedMetric": "frontRightTireTemperature",
           "fmt": {
             "bix": 80,
             "len": 8,
@@ -420,6 +426,7 @@
           "id": "KIA_TT_RL",
           "name": "Rear left tire temperature",
           "path": "Tires",
+          "suggestedMetric": "rearLeftTireTemperature",
           "fmt": {
             "bix": 120,
             "len": 8,
@@ -434,6 +441,7 @@
           "id": "KIA_TT_RR",
           "name": "Rear right tire temperature",
           "path": "Tires",
+          "suggestedMetric": "rearRightTireTemperature",
           "fmt": {
             "bix": 160,
             "len": 8,
@@ -534,6 +542,7 @@
           "id": "KIA_VSS",
           "name": "Vehicle speed",
           "path": "Movement",
+          "suggestedMetric": "speed",
           "fmt": {
             "bix": 232,
             "len": 8,
@@ -559,6 +568,7 @@
           "id": "KIA_FLI_VOL",
           "name": "Fuel level (volume)",
           "path": "Fuel",
+          "suggestedMetric": "fuelTankLevel",
           "fmt": {
             "bix": 32,
             "len": 8,
@@ -570,6 +580,7 @@
           "id": "KIA_VPWR",
           "name": "12v battery voltage",
           "path": "Battery",
+          "suggestedMetric": "starterBatteryVoltage",
           "fmt": {
             "bix": 40,
             "len": 8,
@@ -582,6 +593,7 @@
           "id": "KIA_ODO_KM",
           "name": "Odometer",
           "path": "Trips",
+          "suggestedMetric": "odometer",
           "fmt": {
             "bix": 48,
             "len": 24,
@@ -593,6 +605,7 @@
           "id": "KIA_ODO_MI",
           "name": "Odometer",
           "path": "Trips",
+          "suggestedMetric": "odometer",
           "fmt": {
             "bix": 72,
             "len": 24,
@@ -617,6 +630,7 @@
           "id": "KIA_BMS_SOC",
           "name": "BMS state of charge",
           "path": "Battery",
+          "suggestedMetric": "stateOfCharge",
           "fmt": {
             "bix": 32,
             "len": 8,
@@ -760,6 +774,7 @@
           "id": "KIA_EOT",
           "name": "Engine oil temperature",
           "path": "Engine",
+          "suggestedMetric": "engineOilTemperature",
           "fmt": {
             "bix": 272,
             "len": 8,
@@ -787,6 +802,7 @@
           "id": "KIA_AUX_SOC",
           "name": "Aux battery state of charge",
           "path": "Battery",
+          "suggestedMetric": "stateOfCharge",
           "fmt": {
             "bix": 320,
             "len": 8,
@@ -798,6 +814,7 @@
           "id": "KIA_AUX_SOH",
           "name": "Aux battery state of health",
           "path": "Battery",
+          "suggestedMetric": "stateOfHealth",
           "fmt": {
             "bix": 328,
             "len": 8,
