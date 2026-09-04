@@ -76,6 +76,17 @@
             "max": 1,
             "unit": "noyes"
           }
+        },
+        {
+          "id": "KIA_DOOR_PASSENGER",
+          "name": "Passenger door open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 35,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
         }
       ]
     },
