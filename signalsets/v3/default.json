@@ -854,62 +854,6 @@
             "sign": true,
             "unit": "degrees"
           }
-        },
-        {
-          "id": "KIA_KNOCK_RETARD_1",
-          "name": "Knock retard cylinder 1",
-          "path": "Engine",
-          "fmt": {
-            "bix": 96,
-            "len": 8,
-            "max": 25.4,
-            "min": -25.6,
-            "div": 5,
-            "sign": true,
-            "unit": "degrees"
-          }
-        },
-        {
-          "id": "KIA_KNOCK_RETARD_2",
-          "name": "Knock retard cylinder 2",
-          "path": "Engine",
-          "fmt": {
-            "bix": 104,
-            "len": 8,
-            "max": 25.4,
-            "min": -25.6,
-            "div": 5,
-            "sign": true,
-            "unit": "degrees"
-          }
-        },
-        {
-          "id": "KIA_KNOCK_RETARD_3",
-          "name": "Knock retard cylinder 3",
-          "path": "Engine",
-          "fmt": {
-            "bix": 112,
-            "len": 8,
-            "max": 25.4,
-            "min": -25.6,
-            "div": 5,
-            "sign": true,
-            "unit": "degrees"
-          }
-        },
-        {
-          "id": "KIA_KNOCK_RETARD_4",
-          "name": "Knock retard cylinder 4",
-          "path": "Engine",
-          "fmt": {
-            "bix": 120,
-            "len": 8,
-            "max": 25.4,
-            "min": -25.6,
-            "div": 5,
-            "sign": true,
-            "unit": "degrees"
-          }
         }
       ]
     },
