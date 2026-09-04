@@ -1,4 +1,999 @@
-{ "commands": [
-
-]
+{
+  "commands": [
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC03"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_DOOR_FL",
+          "name": "Front left door open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 34,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_DOOR_FR",
+          "name": "Front right door open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 36,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_DOOR_RL",
+          "name": "Rear left door open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 32,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_DOOR_RR",
+          "name": "Rear right door open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 37,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_HANDBRAKE",
+          "name": "Handbrake engaged?",
+          "path": "Control",
+          "fmt": {
+            "bix": 35,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_TRUNK",
+          "name": "Trunk open?",
+          "path": "Doors",
+          "fmt": {
+            "bix": 39,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_BELT_DRIVER",
+          "name": "Driver seatbelt latched?",
+          "path": "Seatbelts",
+          "fmt": {
+            "bix": 41,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_BELT_PASSENGER",
+          "name": "Passenger seatbelt latched?",
+          "path": "Seatbelts",
+          "fmt": {
+            "bix": 40,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC04"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_LOCK_FL",
+          "name": "Door lock front left ",
+          "path": "Doors",
+          "fmt": {
+            "bix": 35,
+            "len": 1,
+            "max": 1,
+            "unit": "scalar"
+          }
+        },
+        {
+          "id": "KIA_LOCK_FR",
+          "name": "Door lock front right",
+          "path": "Doors",
+          "fmt": {
+            "bix": 34,
+            "len": 1,
+            "max": 1,
+            "unit": "scalar"
+          }
+        },
+        {
+          "id": "KIA_REVERSE_GEAR",
+          "name": "Reverse gear selected",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 36,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_GEAR_R",
+          "name": "Reverse gear selected",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 35,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_BELT_RL",
+          "name": "Rear left seatbelt latched?",
+          "path": "Seatbelts",
+          "fmt": {
+            "bix": 53,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_BELT_RM",
+          "name": "Rear middle seatbelt latched?",
+          "path": "Seatbelts",
+          "fmt": {
+            "bix": 52,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_BELT_RR",
+          "name": "Rear right seatbelt latched?",
+          "path": "Seatbelts",
+          "fmt": {
+            "bix": 54,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC05"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_HAZARD_SW",
+          "name": "Hazard switch",
+          "path": "Lights",
+          "fmt": {
+            "bix": 32,
+            "len": 8,
+            "max": 255,
+            "unit": "scalar"
+          }
+        },
+        {
+          "id": "KIA_HL_SW",
+          "name": "Headlight switch",
+          "path": "Lights",
+          "fmt": {
+            "bix": 48,
+            "len": 8,
+            "max": 1,
+            "nullmin": 0,
+            "nullmax": 2,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC07"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_DEFOG_LIGHT",
+          "name": "Defog light on",
+          "path": "Climate",
+          "fmt": {
+            "bix": 40,
+            "len": 8,
+            "max": 1,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC08"
+      },
+      "freq": 2,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_TURN_L",
+          "name": "Left turn signal on?",
+          "path": "Lights",
+          "fmt": {
+            "bix": 38,
+            "len": 1,
+            "max": 1,
+            "unit": "offon"
+          }
+        },
+        {
+          "id": "KIA_TURN_R",
+          "name": "Right turn signal on?",
+          "path": "Lights",
+          "fmt": {
+            "bix": 37,
+            "len": 1,
+            "max": 1,
+            "unit": "offon"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "770",
+      "rax": "778",
+      "cmd": {
+        "22": "BC09"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_HL_HIGH",
+          "name": "Headlight high beam on",
+          "path": "Lights",
+          "fmt": {
+            "bix": 48,
+            "len": 8,
+            "max": 1,
+            "div": 12,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_HL_LOW",
+          "name": "Headlight low beam on",
+          "path": "Lights",
+          "fmt": {
+            "bix": 56,
+            "len": 8,
+            "max": 1,
+            "div": 12,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7A0",
+      "rax": "7A8",
+      "fcm1": true,
+      "cmd": {
+        "22": "C00B"
+      },
+      "freq": 15,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_TP_FL",
+          "name": "Front left tire pressure",
+          "path": "Tires",
+          "fmt": {
+            "bix": 32,
+            "len": 8,
+            "max": 51,
+            "div": 5,
+            "nullmin": 0,
+            "unit": "psi"
+          }
+        },
+        {
+          "id": "KIA_TP_FR",
+          "name": "Front right tire pressure",
+          "path": "Tires",
+          "fmt": {
+            "bix": 72,
+            "len": 8,
+            "max": 51,
+            "div": 5,
+            "nullmin": 0,
+            "unit": "psi"
+          }
+        },
+        {
+          "id": "KIA_TP_RL",
+          "name": "Rear left tire pressure",
+          "path": "Tires",
+          "fmt": {
+            "bix": 112,
+            "len": 8,
+            "max": 51,
+            "div": 5,
+            "nullmin": 0,
+            "unit": "psi"
+          }
+        },
+        {
+          "id": "KIA_TP_RR",
+          "name": "Rear right tire pressure",
+          "path": "Tires",
+          "fmt": {
+            "bix": 152,
+            "len": 8,
+            "max": 51,
+            "div": 5,
+            "nullmin": 0,
+            "unit": "psi"
+          }
+        },
+        {
+          "id": "KIA_TT_FL",
+          "name": "Front left tire temperature",
+          "path": "Tires",
+          "fmt": {
+            "bix": 40,
+            "len": 8,
+            "max": 205,
+            "min": -50,
+            "add": -50,
+            "nullmin": -50,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_TT_FR",
+          "name": "Front right tire temperature",
+          "path": "Tires",
+          "fmt": {
+            "bix": 80,
+            "len": 8,
+            "max": 205,
+            "min": -50,
+            "add": -50,
+            "nullmin": -50,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_TT_RL",
+          "name": "Rear left tire temperature",
+          "path": "Tires",
+          "fmt": {
+            "bix": 120,
+            "len": 8,
+            "max": 205,
+            "min": -50,
+            "add": -50,
+            "nullmin": -50,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_TT_RR",
+          "name": "Rear right tire temperature",
+          "path": "Tires",
+          "fmt": {
+            "bix": 160,
+            "len": 8,
+            "max": 205,
+            "min": -50,
+            "add": -50,
+            "nullmin": -50,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_FL_INVALID",
+          "name": "Front left tire reading invalid?",
+          "path": "Tires",
+          "fmt": {
+            "bix": 62,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_FR_INVALID",
+          "name": "Front right tire reading invalid?",
+          "path": "Tires",
+          "fmt": {
+            "bix": 94,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_RL_INVALID",
+          "name": "Rear left tire reading invalid?",
+          "path": "Tires",
+          "fmt": {
+            "bix": 126,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_RR_INVALID",
+          "name": "Rear right tire reading invalid?",
+          "path": "Tires",
+          "fmt": {
+            "bix": 158,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7B3",
+      "rax": "7BB",
+      "fcm1": true,
+      "cmd": {
+        "22": "0100"
+      },
+      "freq": 0.25,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_TEMP_INT",
+          "name": "Interior temperature",
+          "path": "Climate",
+          "fmt": {
+            "bix": 40,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "div": 2,
+            "add": -40,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_TEMP_EXT",
+          "name": "Exterior temperature",
+          "path": "Climate",
+          "fmt": {
+            "bix": 48,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "div": 2,
+            "add": -40,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_VSS",
+          "name": "Vehicle speed",
+          "path": "Movement",
+          "fmt": {
+            "bix": 232,
+            "len": 8,
+            "max": 255,
+            "unit": "kilometersPerHour"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7C6",
+      "rax": "7CE",
+      "fcm1": true,
+      "cmd": {
+        "22": "B002"
+      },
+      "freq": 5,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_FLI_VOL",
+          "name": "Fuel level (volume)",
+          "path": "Fuel",
+          "fmt": {
+            "bix": 32,
+            "len": 8,
+            "max": 255,
+            "unit": "liters"
+          }
+        },
+        {
+          "id": "KIA_VPWR",
+          "name": "12v battery voltage",
+          "path": "Battery",
+          "fmt": {
+            "bix": 40,
+            "len": 8,
+            "max": 18,
+            "div": 12.8,
+            "unit": "volts"
+          }
+        },
+        {
+          "id": "KIA_ODO_KM",
+          "name": "Odometer",
+          "path": "Trips",
+          "fmt": {
+            "bix": 48,
+            "len": 24,
+            "max": 16777215,
+            "unit": "kilometers"
+          }
+        },
+        {
+          "id": "KIA_ODO_MI",
+          "name": "Odometer",
+          "path": "Trips",
+          "fmt": {
+            "bix": 72,
+            "len": 24,
+            "max": 16777215,
+            "unit": "miles"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7D4",
+      "rax": "7DC",
+      "cmd": {
+        "22": "0101"
+      },
+      "freq": 5,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_BMS_SOC",
+          "name": "BMS state of charge",
+          "path": "Battery",
+          "fmt": {
+            "bix": 32,
+            "len": 8,
+            "max": 100,
+            "div": 2,
+            "unit": "percent"
+          }
+        },
+        {
+          "id": "KIA_BMS_CHG_PWR",
+          "name": "BMS available charge power",
+          "path": "Battery",
+          "fmt": {
+            "bix": 40,
+            "len": 16,
+            "max": 655.35,
+            "div": 100,
+            "unit": "kilowatts"
+          }
+        },
+        {
+          "id": "KIA_BMS_DISCHG_PWR",
+          "name": "BMS available discharge power",
+          "path": "Battery",
+          "fmt": {
+            "bix": 56,
+            "len": 16,
+            "max": 655.35,
+            "div": 100,
+            "unit": "kilowatts"
+          }
+        },
+        {
+          "id": "KIA_BMS_MIN_TEMP",
+          "name": "BMS battery min temp",
+          "path": "Battery",
+          "fmt": {
+            "bix": 120,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "sign": true,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_BMS_MOD1_TEMP",
+          "name": "BMS battery mod 1 temp",
+          "path": "Battery",
+          "fmt": {
+            "bix": 128,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "sign": true,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_BMS_MOD2_TEMP",
+          "name": "BMS battery mod 2 temp",
+          "path": "Battery",
+          "fmt": {
+            "bix": 136,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "sign": true,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_BMS_MOD3_TEMP",
+          "name": "BMS battery mod 3 temp",
+          "path": "Battery",
+          "fmt": {
+            "bix": 144,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "sign": true,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_BMS_MOD4_TEMP",
+          "name": "BMS battery mod 4 temp",
+          "path": "Battery",
+          "fmt": {
+            "bix": 152,
+            "len": 8,
+            "max": 80,
+            "min": -40,
+            "sign": true,
+            "unit": "celsius"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "cmd": {
+        "22": "E001"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_EIT",
+          "name": "Intake air temperature",
+          "path": "Engine",
+          "fmt": {
+            "bix": 264,
+            "len": 8,
+            "max": 143,
+            "min": -48,
+            "mul": 3,
+            "div": 4,
+            "add": -48,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_IAT",
+          "name": "Intake air temperature",
+          "path": "Engine",
+          "fmt": {
+            "bix": 264,
+            "len": 8,
+            "max": 143.254781,
+            "div": 1.3333,
+            "add": -48,
+            "unit": "celsius",
+            "min": 0
+          }
+        },
+        {
+          "id": "KIA_EOT",
+          "name": "Engine oil temperature",
+          "path": "Engine",
+          "fmt": {
+            "bix": 272,
+            "len": 8,
+            "max": 143.254781,
+            "div": 1.3333,
+            "add": -48,
+            "unit": "celsius",
+            "min": 0
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "cmd": {
+        "22": "E004"
+      },
+      "freq": 5,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_AUX_SOC",
+          "name": "Aux battery state of charge",
+          "path": "Battery",
+          "fmt": {
+            "bix": 320,
+            "len": 8,
+            "max": 100,
+            "unit": "percent"
+          }
+        },
+        {
+          "id": "KIA_AUX_SOH",
+          "name": "Aux battery state of health",
+          "path": "Battery",
+          "fmt": {
+            "bix": 328,
+            "len": 8,
+            "max": 100,
+            "unit": "percent"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "cmd": {
+        "22": "E00A"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_KNOCK_LEARN_1",
+          "name": "Knock learn cylinder 1",
+          "path": "Engine",
+          "fmt": {
+            "bix": 160,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_LEARN_2",
+          "name": "Knock learn cylinder 2",
+          "path": "Engine",
+          "fmt": {
+            "bix": 168,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_LEARN_3",
+          "name": "Knock learn cylinder 3",
+          "path": "Engine",
+          "fmt": {
+            "bix": 176,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_LEARN_4",
+          "name": "Knock learn cylinder 4",
+          "path": "Engine",
+          "fmt": {
+            "bix": 184,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_RETARD_1",
+          "name": "Knock retard cylinder 1",
+          "path": "Engine",
+          "fmt": {
+            "bix": 96,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_RETARD_2",
+          "name": "Knock retard cylinder 2",
+          "path": "Engine",
+          "fmt": {
+            "bix": 104,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_RETARD_3",
+          "name": "Knock retard cylinder 3",
+          "path": "Engine",
+          "fmt": {
+            "bix": 112,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        },
+        {
+          "id": "KIA_KNOCK_RETARD_4",
+          "name": "Knock retard cylinder 4",
+          "path": "Engine",
+          "fmt": {
+            "bix": 120,
+            "len": 8,
+            "max": 25.4,
+            "min": -25.6,
+            "div": 5,
+            "sign": true,
+            "unit": "degrees"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7E1",
+      "rax": "7E9",
+      "cmd": {
+        "22": "01A4"
+      },
+      "freq": 1,
+      "filter": {
+        "from": 2018
+      },
+      "signals": [
+        {
+          "id": "KIA_GEAR_CUR",
+          "name": "Current gear",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 188,
+            "len": 4,
+            "max": 15,
+            "unit": "scalar"
+          }
+        },
+        {
+          "id": "KIA_GEAR_NXT",
+          "name": "Next gear",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 196,
+            "len": 4,
+            "max": 15,
+            "unit": "scalar"
+          }
+        },
+        {
+          "id": "KIA_CLUTCH_1_T",
+          "name": "Clutch #1 temperature",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 232,
+            "len": 16,
+            "max": 300,
+            "min": -40,
+            "mul": 2,
+            "add": -40,
+            "unit": "celsius"
+          }
+        },
+        {
+          "id": "KIA_CLUTCH_2_T",
+          "name": "Clutch #2 temperature",
+          "path": "Transmission",
+          "fmt": {
+            "bix": 248,
+            "len": 16,
+            "max": 300,
+            "min": -40,
+            "mul": 2,
+            "add": -40,
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
 }
