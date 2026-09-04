@@ -12,69 +12,17 @@
       },
       "signals": [
         {
-          "id": "KIA_DOOR_FL",
-          "name": "Front left door open?",
+          "id": "KIA_DOOR_DRIVER",
+          "name": "Driver door open?",
           "path": "Doors",
           "fmt": {
             "bix": 34,
             "len": 1,
             "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_DOOR_FR",
-          "name": "Front right door open?",
-          "path": "Doors",
-          "fmt": {
-            "bix": 36,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_DOOR_RL",
-          "name": "Rear left door open?",
-          "path": "Doors",
-          "fmt": {
-            "bix": 32,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_DOOR_RR",
-          "name": "Rear right door open?",
-          "path": "Doors",
-          "fmt": {
-            "bix": 37,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_HANDBRAKE",
-          "name": "Handbrake engaged?",
-          "path": "Control",
-          "fmt": {
-            "bix": 35,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_TRUNK",
-          "name": "Trunk open?",
-          "path": "Doors",
-          "fmt": {
-            "bix": 39,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
+            "unit": "noyes",
+            "mul": -1,
+            "add": 1,
+            "min": 0
           }
         },
         {
@@ -82,21 +30,13 @@
           "name": "Driver seatbelt latched?",
           "path": "Seatbelts",
           "fmt": {
-            "bix": 41,
+            "bix": 46,
             "len": 1,
             "max": 1,
-            "unit": "noyes"
-          }
-        },
-        {
-          "id": "KIA_BELT_PASSENGER",
-          "name": "Passenger seatbelt latched?",
-          "path": "Seatbelts",
-          "fmt": {
-            "bix": 40,
-            "len": 1,
-            "max": 1,
-            "unit": "noyes"
+            "unit": "noyes",
+            "mul": -1,
+            "add": 1,
+            "min": 0
           }
         }
       ]
