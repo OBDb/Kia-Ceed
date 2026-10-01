@@ -4,6 +4,7 @@ test_cases:
     KIA_CLUTCH_1_T: 164
     KIA_CLUTCH_2_T: 174
     KIA_GEAR_CUR: 0
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -18,6 +19,7 @@ test_cases:
     KIA_CLUTCH_1_T: 216
     KIA_CLUTCH_2_T: 214
     KIA_GEAR_CUR: 0
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -32,6 +34,7 @@ test_cases:
     KIA_CLUTCH_1_T: 104
     KIA_CLUTCH_2_T: 98
     KIA_GEAR_CUR: 0
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -46,6 +49,7 @@ test_cases:
     KIA_CLUTCH_1_T: 142
     KIA_CLUTCH_2_T: 152
     KIA_GEAR_CUR: 0
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -60,6 +64,7 @@ test_cases:
     KIA_CLUTCH_1_T: 90
     KIA_CLUTCH_2_T: 72
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -74,6 +79,7 @@ test_cases:
     KIA_CLUTCH_1_T: 116
     KIA_CLUTCH_2_T: 116
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -88,6 +94,7 @@ test_cases:
     KIA_CLUTCH_1_T: 164
     KIA_CLUTCH_2_T: 164
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -102,6 +109,7 @@ test_cases:
     KIA_CLUTCH_1_T: 16
     KIA_CLUTCH_2_T: -10
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -116,6 +124,7 @@ test_cases:
     KIA_CLUTCH_1_T: 134
     KIA_CLUTCH_2_T: 118
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -130,6 +139,7 @@ test_cases:
     KIA_CLUTCH_1_T: 108
     KIA_CLUTCH_2_T: 84
     KIA_GEAR_CUR: 2
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -144,6 +154,7 @@ test_cases:
     KIA_CLUTCH_1_T: 48
     KIA_CLUTCH_2_T: 32
     KIA_GEAR_CUR: 2
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -158,6 +169,7 @@ test_cases:
     KIA_CLUTCH_1_T: 172
     KIA_CLUTCH_2_T: 132
     KIA_GEAR_CUR: 14
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -172,6 +184,7 @@ test_cases:
     KIA_CLUTCH_1_T: 44
     KIA_CLUTCH_2_T: 36
     KIA_GEAR_CUR: 3
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -186,6 +199,7 @@ test_cases:
     KIA_CLUTCH_1_T: 90
     KIA_CLUTCH_2_T: 116
     KIA_GEAR_CUR: 0
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -200,6 +214,7 @@ test_cases:
     KIA_CLUTCH_1_T: 46
     KIA_CLUTCH_2_T: 26
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -214,6 +229,7 @@ test_cases:
     KIA_CLUTCH_1_T: 124
     KIA_CLUTCH_2_T: 124
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -228,6 +244,7 @@ test_cases:
     KIA_CLUTCH_1_T: 206
     KIA_CLUTCH_2_T: 146
     KIA_GEAR_CUR: 14
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -242,6 +259,7 @@ test_cases:
     KIA_CLUTCH_1_T: 126
     KIA_CLUTCH_2_T: 114
     KIA_GEAR_CUR: 2
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -256,6 +274,7 @@ test_cases:
     KIA_CLUTCH_1_T: 44
     KIA_CLUTCH_2_T: 50
     KIA_GEAR_CUR: 3
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -270,6 +289,7 @@ test_cases:
     KIA_CLUTCH_1_T: 184
     KIA_CLUTCH_2_T: 166
     KIA_GEAR_CUR: 14
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -284,6 +304,7 @@ test_cases:
     KIA_CLUTCH_1_T: 174
     KIA_CLUTCH_2_T: 140
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -298,6 +319,7 @@ test_cases:
     KIA_CLUTCH_1_T: -40
     KIA_CLUTCH_2_T: -32
     KIA_GEAR_CUR: 2
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -312,6 +334,7 @@ test_cases:
     KIA_CLUTCH_1_T: 300
     KIA_CLUTCH_2_T: 300
     KIA_GEAR_CUR: 14
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -326,6 +349,7 @@ test_cases:
     KIA_CLUTCH_1_T: 170
     KIA_CLUTCH_2_T: 188
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -340,6 +364,7 @@ test_cases:
     KIA_CLUTCH_1_T: 300
     KIA_CLUTCH_2_T: -30
     KIA_GEAR_CUR: 1
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -354,6 +379,7 @@ test_cases:
     KIA_CLUTCH_1_T: 124
     KIA_CLUTCH_2_T: 110
     KIA_GEAR_CUR: 6
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
@@ -368,6 +394,7 @@ test_cases:
     KIA_CLUTCH_1_T: 160
     KIA_CLUTCH_2_T: 180
     KIA_GEAR_CUR: 2
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -382,6 +409,7 @@ test_cases:
     KIA_CLUTCH_1_T: 150
     KIA_CLUTCH_2_T: 160
     KIA_GEAR_CUR: 4
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 4
   response: |-
     7E910326201A4FFFFFF
@@ -396,6 +424,7 @@ test_cases:
     KIA_CLUTCH_1_T: 100
     KIA_CLUTCH_2_T: 88
     KIA_GEAR_CUR: 7
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 7
   response: |-
     7E910326201A4FFFFFF
@@ -410,6 +439,7 @@ test_cases:
     KIA_CLUTCH_1_T: 80
     KIA_CLUTCH_2_T: 64
     KIA_GEAR_CUR: 6
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 6
   response: |-
     7E910326201A4FFFFFF
@@ -424,6 +454,7 @@ test_cases:
     KIA_CLUTCH_1_T: 116
     KIA_CLUTCH_2_T: 92
     KIA_GEAR_CUR: 7
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 7
   response: |-
     7E910326201A4FFFFFF
@@ -438,6 +469,7 @@ test_cases:
     KIA_CLUTCH_1_T: 108
     KIA_CLUTCH_2_T: 86
     KIA_GEAR_CUR: 6
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 6
   response: |-
     7E910326201A4FFFFFF
@@ -452,6 +484,7 @@ test_cases:
     KIA_CLUTCH_1_T: 134
     KIA_CLUTCH_2_T: 124
     KIA_GEAR_CUR: 5
+    KIA_GEAR_CUR_2025: 15
     KIA_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
