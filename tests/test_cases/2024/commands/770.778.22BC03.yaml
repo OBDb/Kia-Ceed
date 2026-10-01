@@ -2,9 +2,7 @@ command_id: 770.778.22BC03
 test_cases:
 - expected_values:
     KIA_BELT_DRIV: 0
-    KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
@@ -19,9 +17,7 @@ test_cases:
     778216300000000AAAA
 - expected_values:
     KIA_BELT_DRIV: 0
-    KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
@@ -36,9 +32,7 @@ test_cases:
     778216300000400AAAA
 - expected_values:
     KIA_BELT_DRIV: 0
-    KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 1
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
@@ -53,9 +47,7 @@ test_cases:
     778216300600402AAAA
 - expected_values:
     KIA_BELT_DRIV: 1
-    KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 1
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
@@ -70,9 +62,7 @@ test_cases:
     778216300660000AAAA
 - expected_values:
     KIA_BELT_DRIV: 0
-    KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
@@ -87,9 +77,7 @@ test_cases:
     77821630E000000AAAA
 - expected_values:
     KIA_BELT_DRIV: 0
-    KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
-    KIA_BELT_PASSENGER: 0
     KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
