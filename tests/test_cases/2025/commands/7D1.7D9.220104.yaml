@@ -3,6 +3,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -9.2
+    KIA_STEER_ANGLE_V2_7D1: -9.2
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -21,6 +22,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 9.8
+    KIA_STEER_ANGLE_V2_7D1: 9.8
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -39,6 +41,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 1
+    KIA_STEER_ANGLE_V2_7D1: 1
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -57,6 +60,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 9.8
+    KIA_STEER_ANGLE_V2_7D1: 9.8
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -75,6 +79,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -8.9
+    KIA_STEER_ANGLE_V2_7D1: -8.9
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -93,6 +98,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 1.9
+    KIA_STEER_ANGLE_V2_7D1: 1.9
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -111,6 +117,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 22.3
+    KIA_STEER_ANGLE_V2_7D1: 22.3
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -129,6 +136,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -0.1
+    KIA_STEER_ANGLE_V2_7D1: -0.1
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -147,6 +155,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 27.92388
     KIA_STEER_ANGLE_V2: 12.6
+    KIA_STEER_ANGLE_V2_7D1: 12.6
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -164,7 +173,7 @@ test_cases:
     7D926FD000DAAAAAAAA
 - expected_values:
     KIA_BRAKE_P_V2: 26.41292
-    KIA_STEER_ANGLE_V2: 3276.7
+    KIA_STEER_ANGLE_V2_7D1: 3276.7
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -183,6 +192,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -22.9
+    KIA_STEER_ANGLE_V2_7D1: -22.9
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -201,6 +211,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -31.4
+    KIA_STEER_ANGLE_V2_7D1: -31.4
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -219,6 +230,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 0
+    KIA_STEER_ANGLE_V2_7D1: 0
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -236,7 +248,7 @@ test_cases:
     7D926FD0004AAAAAAAA
 - expected_values:
     KIA_BRAKE_P_V2: 41.84544
-    KIA_STEER_ANGLE_V2: 3276.7
+    KIA_STEER_ANGLE_V2_7D1: 3276.7
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -255,6 +267,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -251.2
+    KIA_STEER_ANGLE_V2_7D1: -251.2
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -273,6 +286,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 17.20877
     KIA_STEER_ANGLE_V2: 0.7
+    KIA_STEER_ANGLE_V2_7D1: 0.7
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -291,6 +305,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 9.4
+    KIA_STEER_ANGLE_V2_7D1: 9.4
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -309,6 +324,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 7.00115
     KIA_STEER_ANGLE_V2: 6.8
+    KIA_STEER_ANGLE_V2_7D1: 6.8
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -327,6 +343,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 17.01269
     KIA_STEER_ANGLE_V2: -21
+    KIA_STEER_ANGLE_V2_7D1: -21
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -345,6 +362,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -7.4
+    KIA_STEER_ANGLE_V2_7D1: -7.4
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -363,6 +381,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 81
+    KIA_STEER_ANGLE_V2_7D1: 81
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -381,6 +400,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 45.20185
     KIA_STEER_ANGLE_V2: -158.2
+    KIA_STEER_ANGLE_V2_7D1: -158.2
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -399,6 +419,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 61.14187
     KIA_STEER_ANGLE_V2: 0
+    KIA_STEER_ANGLE_V2_7D1: 0
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -417,6 +438,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 2.47982
     KIA_STEER_ANGLE_V2: 1
+    KIA_STEER_ANGLE_V2_7D1: 1
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 0
     KIA_TIRE_FR_VSS_V2: 0
@@ -435,6 +457,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 2.9
+    KIA_STEER_ANGLE_V2_7D1: 2.9
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 67
     KIA_TIRE_FR_VSS_V2: 67
@@ -453,6 +476,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 1.4
+    KIA_STEER_ANGLE_V2_7D1: 1.4
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 90
     KIA_TIRE_FR_VSS_V2: 90
@@ -471,6 +495,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 48.7
+    KIA_STEER_ANGLE_V2_7D1: 48.7
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 17
     KIA_TIRE_FR_VSS_V2: 12
@@ -489,6 +514,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 1.8
+    KIA_STEER_ANGLE_V2_7D1: 1.8
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 182
     KIA_TIRE_FR_VSS_V2: 183
@@ -507,6 +533,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 0.9
+    KIA_STEER_ANGLE_V2_7D1: 0.9
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 160
     KIA_TIRE_FR_VSS_V2: 161
@@ -525,6 +552,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: 3.4
+    KIA_STEER_ANGLE_V2_7D1: 3.4
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 194
     KIA_TIRE_FR_VSS_V2: 194
@@ -543,6 +571,7 @@ test_cases:
 - expected_values:
     KIA_BRAKE_P_V2: 0
     KIA_STEER_ANGLE_V2: -3.1
+    KIA_STEER_ANGLE_V2_7D1: -3.1
     KIA_TC_SWITCH_V2: 0
     KIA_TIRE_FL_VSS_V2: 95
     KIA_TIRE_FR_VSS_V2: 95

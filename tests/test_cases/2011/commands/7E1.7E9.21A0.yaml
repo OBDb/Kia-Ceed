@@ -3,6 +3,7 @@ test_cases:
 - expected_values:
     KIA_APP_REL_TCM: 56.47059
     KIA_ATF_T: 44
+    KIA_ATF_T_7E1: 44
     KIA_BRAKE_PEDAL: 0
     KIA_COMMANDED_GEAR: 254
     KIA_CURRENT_GEAR: 254
