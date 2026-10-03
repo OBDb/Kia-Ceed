@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.22ED13
+test_cases:
+- expected_values:
+    KIA_OIL_PMP_PWM: 0
+  response: |-
+    7E8100C62ED13050000
+    7E821000038000000AA
