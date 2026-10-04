@@ -1,10 +1,20 @@
 command_id: 7E0.7E8.22ED1D
 test_cases:
 - expected_values:
+    KIA_DPF_SOOT: 7.28527
+  response: |-
+    7E8100B62ED1D010000
+    7E8210049070000AAAA
+- expected_values:
     KIA_DPF_SOOT: 20.29328
   response: |-
     7E8100B62ED1D010000
     7E821004B140000AAAA
+- expected_values:
+    KIA_DPF_SOOT: 7.29699
+  response: |-
+    7E8100B62ED1D010000
+    7E821004C070000AAAA
 - expected_values:
     KIA_DPF_SOOT: 20.34797
   response: |-
