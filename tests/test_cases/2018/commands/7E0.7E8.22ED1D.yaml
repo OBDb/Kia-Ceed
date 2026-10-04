@@ -20,3 +20,8 @@ test_cases:
   response: |-
     7E8100B62ED1D010000
     7E821005D140000AAAA
+- expected_values:
+    KIA_DPF_SOOT: 5.879
+  response: |-
+    7E8100B62ED1D010000
+    7E82100E1050000AAAA

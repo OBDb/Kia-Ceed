@@ -9,7 +9,22 @@ test_cases:
     KIA_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
-    7E8210060150033F3AA
+    7E8210060150002C1AA
+- expected_values:
+    KIA_OIL_PMP_PWM: 0.392
+  response: |-
+    7E8100C62ED13050000
+    7E821006015005EAFAA
+- expected_values:
+    KIA_OIL_PMP_PWM: 0.392
+  response: |-
+    7E8100C62ED13050000
+    7E82100601500CFD7AA
+- expected_values:
+    KIA_OIL_PMP_PWM: 0
+  response: |-
+    7E8100C62ED13050000
+    7E82100601500F9BAAA
 - expected_values:
     KIA_OIL_PMP_PWM: 0.392
   response: |-
