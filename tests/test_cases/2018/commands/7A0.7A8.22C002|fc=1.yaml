@@ -1,6 +1,16 @@
 command_id: 7A0.7A8.22C002|fc=1
 test_cases:
 - expected_values:
+    KIA_TID_1: 223566
+    KIA_TID_2: 224100
+    KIA_TID_3: 223590
+    KIA_TID_4: 223589
+  response: |-
+    7A8101762C002FFFF00
+    7A821000003694E0003
+    7A8226B640003696600
+    7A823036965AAAAAAAA
+- expected_values:
     KIA_TID_1: 224100
     KIA_TID_2: 223566
     KIA_TID_3: 223590
