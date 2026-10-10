@@ -30,3 +30,8 @@ test_cases:
   response: |-
     778100B62BC10CF2000
     7782100F0000000AAAA
+- expected_values:
+    KIA_LIGHTS_CODE: 15
+  response: |-
+    778100B62BC10CF2000
+    7782100F0040000AAAA
