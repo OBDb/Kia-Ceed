@@ -1,9 +1,9 @@
 command_id: 7A0.7A8.22C00E|fc=1
 test_cases:
 - expected_values:
-    CEED_SENS_3_ODO_EVT_1: 1677721.5
-    CEED_SENS_3_ODO_EVT_2: 1677721.5
-    CEED_SENS_3_ODO_EVT_3: 1677721.5
+    CEED_SENS_3_ODO_EVT_1: null
+    CEED_SENS_3_ODO_EVT_2: null
+    CEED_SENS_3_ODO_EVT_3: null
   response: |-
     7A8102E62C00EFFFF03
     7A82100010003694E84
