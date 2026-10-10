@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.22E010
 test_cases:
 - expected_values:
-    KIA_MAF_RATE: 0
+    CEED_MAF_RATE: 0
   response: |-
     7E8102A62E010FFFFC0
     7E8210072059A2102FE

@@ -1,32 +1,32 @@
 command_id: 7E0.7E8.22ED1D
 test_cases:
 - expected_values:
-    KIA_DPF_SOOT: 19.00029
+    CEED_DPF_SOOT: 19.00029
   response: |-
     7E8100B62ED1D010000
     7E8210000130000AAAA
 - expected_values:
-    KIA_DPF_SOOT: 7.50011
+    CEED_DPF_SOOT: 7.50011
   response: |-
     7E8100B62ED1D010000
     7E8210080070000AAAA
 - expected_values:
-    KIA_DPF_SOOT: 18.637
+    CEED_DPF_SOOT: 18.637
   response: |-
     7E8100B62ED1D010000
     7E82100A3120000AAAA
 - expected_values:
-    KIA_DPF_SOOT: 10.72282
+    CEED_DPF_SOOT: 10.72282
   response: |-
     7E8100B62ED1D010000
     7E82100B90A0000AAAA
 - expected_values:
-    KIA_DPF_SOOT: 18.87138
+    CEED_DPF_SOOT: 18.87138
   response: |-
     7E8100B62ED1D010000
     7E82100DF120000AAAA
 - expected_values:
-    KIA_DPF_SOOT: 18.94951
+    CEED_DPF_SOOT: 18.94951
   response: |-
     7E8100B62ED1D010000
     7E82100F3120000AAAA
