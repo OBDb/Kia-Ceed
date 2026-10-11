@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2115
 test_cases:
 - expected_values:
-    KIA_STFT_B1: 6.32935
-    KIA_STFT_B1_IDLE: 0
+    CEED_STFT_B1: 6.32935
+    CEED_STFT_B1_IDLE: 0
   response: |-
     7E81038611553F15CC0
     7E8210000CBFF00001A

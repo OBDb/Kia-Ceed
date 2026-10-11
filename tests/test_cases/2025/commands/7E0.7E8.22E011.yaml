@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.22E011
 test_cases:
 - expected_values:
-    KIA_CALC_OIL_T: null
+    CEED_CALC_OIL_T: -40
   response: |-
     7E8104562E011FFC000
     7E82100000000000000

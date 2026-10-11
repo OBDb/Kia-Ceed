@@ -1,12 +1,12 @@
 command_id: 770.778.22BC10|fc=1
 test_cases:
 - expected_values:
-    KIA_LIGHTS_CODE: 0
+    CEED_LIGHTS_CODE: 0
   response: |-
     778100B62BC10CF0000
     778210000000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 15
+    CEED_LIGHTS_CODE: 15
   response: |-
     778100B62BC10CF0000
     7782100F0000000AAAA

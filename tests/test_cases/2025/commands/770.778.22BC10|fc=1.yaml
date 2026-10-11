@@ -1,37 +1,37 @@
 command_id: 770.778.22BC10|fc=1
 test_cases:
 - expected_values:
-    KIA_LIGHTS_CODE: 0
+    CEED_LIGHTS_CODE: 0
   response: |-
     778100B62BC10CF2000
     778210000000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 12
+    CEED_LIGHTS_CODE: 12
   response: |-
     778100B62BC10CF2000
     7782100C0000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 13
+    CEED_LIGHTS_CODE: 13
   response: |-
     778100B62BC10CF2000
     7782100D0000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 13
+    CEED_LIGHTS_CODE: 13
   response: |-
     778100B62BC10CF2000
     7782100D0040000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 14
+    CEED_LIGHTS_CODE: 14
   response: |-
     778100B62BC10CF2000
     7782100E0000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 15
+    CEED_LIGHTS_CODE: 15
   response: |-
     778100B62BC10CF2000
     7782100F0000000AAAA
 - expected_values:
-    KIA_LIGHTS_CODE: 15
+    CEED_LIGHTS_CODE: 15
   response: |-
     778100B62BC10CF2000
     7782100F0040000AAAA

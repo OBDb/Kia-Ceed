@@ -1,42 +1,42 @@
 command_id: 7E0.7E8.22ED13
 test_cases:
 - expected_values:
-    KIA_OIL_PMP_PWM: 0.392
+    CEED_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
     7E82100001A009B7DAA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0
+    CEED_OIL_PMP_PWM: 0
   response: |-
     7E8100C62ED13050000
     7E821000038000000AA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0
+    CEED_OIL_PMP_PWM: 0
   response: |-
     7E8100C62ED13050000
     7E82100201B00129AAA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0.392
+    CEED_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
     7E821004015000C8BAA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0.392
+    CEED_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
     7E82100401500A58FAA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0.392
+    CEED_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
     7E82100601500CFD7AA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0
+    CEED_OIL_PMP_PWM: 0
   response: |-
     7E8100C62ED13050000
     7E82100601500F9BAAA
 - expected_values:
-    KIA_OIL_PMP_PWM: 0.392
+    CEED_OIL_PMP_PWM: 0.392
   response: |-
     7E8100C62ED13050000
     7E82100C01A00198FAA
