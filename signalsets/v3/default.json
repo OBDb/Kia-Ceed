@@ -676,7 +676,7 @@
   "signals": [
     {"id": "CEED_EOT_7E0", "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 149.9965, "min": -50, "mul": 0.7843, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "ED08"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED08"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "CEED_12V_BAT_V", "path": "Battery", "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 71.53,                     "div": 1000, "add": 6,                   "unit": "volts" },                                 "name": "12V battery voltage"},
     {"id": "CEED_12V_BAT_T", "path": "Battery", "fmt": {"bix": 80, "len": 8,  "max": 143,   "min": -48,   "mul": 3, "div": 4, "add": -48,            "unit": "celsius" },              "name": "12V battery temperature"}
