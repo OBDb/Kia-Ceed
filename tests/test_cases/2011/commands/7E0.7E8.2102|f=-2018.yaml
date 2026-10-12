@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2102
+command_id: 7E0.7E8.2102|f=-2018
 test_cases:
 - expected_values:
     CEED_COMMANDED_EVAPORATIVE_PURGE: 0

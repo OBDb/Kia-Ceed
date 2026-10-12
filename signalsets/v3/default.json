@@ -169,7 +169,7 @@
     {"id": "CEED_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "nullmin": 0,                   "unit": "kilometers" }, "name": "Odometer, metric",   "suggestedMetric": "odometer"},
     {"id": "CEED_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "nullmin": 0,                   "unit": "miles"      }, "name": "Odometer, imperial", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "CEED_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -201,7 +201,7 @@
     {"id": "CEED_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "CEED_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
@@ -209,7 +209,7 @@
   "signals": [
     {"id": "CEED_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "amps" }, "name": "Motor-driven power steering current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "00"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "00"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_FUEL_CUT",               "path": "Fuel",     "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel cut"},
     {"id": "CEED_IDLE_CONTROL_MODE",      "path": "Engine",   "fmt": {"bix": 120, "len": 8, "max": 255, "unit": "scalar" }, "name": "Idle control mode"},
@@ -217,7 +217,7 @@
     {"id": "CEED_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
     {"id": "CEED_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage"},
     {"id": "CEED_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage after ignition"},
@@ -231,7 +231,7 @@
     {"id": "CEED_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
     {"id": "CEED_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_OXYGEN_SENSOR_11",            "path": "Engine",   "fmt": {"bix": 32,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
     {"id": "CEED_OXYGEN_SENSOR_21",            "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
@@ -328,7 +328,7 @@
   "signals": [
     {"id": "CEED_ENG_RUN_TIME_TOT", "path": "Engine", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 393209.9999, "mul": 6, "unit": "minutes" }, "name": "Engine run time, total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "13"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_TIMING_ADVANCE_1",    "path": "Engine", "fmt": {"bix": 32,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #1"},
     {"id": "CEED_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
@@ -336,7 +336,7 @@
     {"id": "CEED_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
     {"id": "CEED_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,                          "div": 2,               "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Commanded throttle actuator"},
     {"id": "CEED_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
@@ -348,19 +348,19 @@
     {"id": "CEED_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100,                  "mul": 0.001526,                                              "unit": "percent" },                "name": "Requested torque"},
     {"id": "CEED_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_STFT_B1_IDLE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 100,   "mul": 0.046875,                  "sign": true, "unit": "percent" }, "name": "Short term fuel % trim, bank 1 idle"},
     {"id": "CEED_STFT_B1",      "path": "Fuel", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 99.99, "mul": 0.0030517578, "add": -100,               "unit": "percent" }, "name": "Short term fuel % trim, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_KNOCK_RETARD_CYLINDER_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #1"},
     {"id": "CEED_KNOCK_RETARD_CYLINDER_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #2"},
     {"id": "CEED_KNOCK_RETARD_CYLINDER_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #3"},
     {"id": "CEED_KNOCK_RETARD_CYLINDER_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "17"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "17"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_INTAKE_CAMSHAFT_POSITION_COMMANDED", "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 63.5,  "min": -64,              "div": 2,             "sign": true,               "unit": "degrees" },                "name": "Intake camshaft position commanded"},
     {"id": "CEED_INTAKE_CAMSHAFT_POSITION_ACTUAL",    "path": "Engine", "fmt": {"bix": 40, "len": 16, "blsb": true, "max": 255, "min": -256,           "div": 128,               "sign": true,                   "unit": "degrees" },                                            "name": "Intake camshaft position actual"}
@@ -712,7 +712,7 @@
   "signals": [
     {"id": "CEED_TOT_SULFUR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 9999, "mul": 15259, "div": 100000, "unit": "unknown" }, "name": "Total sulfur mass"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CEED_ENGINE_RPM_TCM",        "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
     {"id": "CEED_VEHICLE_SPEED",         "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
