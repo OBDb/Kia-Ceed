@@ -674,7 +674,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "ED07"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "CEED_EOT_7E0", "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 149.9965, "min": -50, "mul": 0.7843, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
+    {"id": "CEED_EOT_7E0", "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 149.9965, "min": -50, "mul": 0.7843, "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED08"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -691,22 +691,22 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED27"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "CEED_BAT_CURRENT_BATSENS",  "path": "Battery", "fmt": {"bix": 48,  "len": 8,  "max": 25.5,                                  "div": 10,                              "unit": "amps"        }, "name": "Battery current, battery sensor"},
-    {"id": "CEED_BAT_V_BATSENS",        "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 18.75,                   "mul": 12.75, "div": 255,   "add": 6,                 "unit": "volts"       }, "name": "Battery voltage, battery sensor"},
-    {"id": "CEED_BAT_T_BATSENS",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 87.5,    "min": -40,                   "div": 2,     "add": -40,               "unit": "celsius"     }, "name": "Battery temperature, battery sensor"},
-    {"id": "CEED_BAT_ST_CHG_BATSENS",   "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 100,                                                                           "unit": "percent"     }, "name": "Battery state of charge, battery sensor"},
-    {"id": "CEED_BAT_ST_HEALTH",        "path": "Battery", "fmt": {"bix": 80,  "len": 8,  "max": 100,                                                                           "unit": "percent"     }, "name": "Battery state of health, battery sensor"},
-    {"id": "CEED_BAT_ST_FUNCTION",      "path": "Battery", "fmt": {"bix": 88,  "len": 8,  "max": 12.75,                   "mul": 12.75, "div": 255,                             "unit": "volts"       }, "name": "Battery state of function, battery sensor"},
-    {"id": "CEED_BAT_CAP_BATSENS",      "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 255,                                                                           "unit": "ampereHours" }, "name": "Battery capacity, battery sensor"},
-    {"id": "CEED_RESPONSE_ERROR",       "path": "Battery", "fmt": {"bix": 178, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Response error from battery sensor flag, battery sensor"},
-    {"id": "CEED_BATSENS_INVALID_COND", "path": "Battery", "fmt": {"bix": 179, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Battery sensor invalid condition flag, battery sensor"},
-    {"id": "CEED_BAT_QUIESCENT",        "path": "Battery", "fmt": {"bix": 180, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Battery quiescent current flag, battery sensor"},
-    {"id": "CEED_BAT_CRANK_ENG_FLAG",   "path": "Battery", "fmt": {"bix": 181, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Battery is in use to crank the engine flag, battery sensor"},
-    {"id": "CEED_BAT_HEALTH_AGING",     "path": "Battery", "fmt": {"bix": 182, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Battery health aging flag, battery sensor"},
-    {"id": "CEED_BAT_CHG_FLAG_BATSENS", "path": "Battery", "fmt": {"bix": 183, "len": 1,  "max": 1,                                                                             "unit": "offon"       }, "name": "Battery charge flag, battery sensor"},
-    {"id": "CEED_BAT_CURRENT",          "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 3276.7,  "min": -3276.8, "mul": 1000,  "div": 10000,             "sign": true, "unit": "amps"        }, "name": "Battery current"},
-    {"id": "CEED_BAT_V",                "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 71.535,                  "mul": 10,    "div": 10000, "add": 6,                 "unit": "volts"       }, "name": "Battery voltage"},
-    {"id": "CEED_BAT_T",                "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 32767.5,                               "div": 2,                               "unit": "celsius"     }, "name": "Battery temperature"}
+    {"id": "CEED_BAT_CURRENT_BATSENS",  "path": "Battery", "fmt": {"bix": 48,  "len": 8,  "max": 25.5,                                  "div": 10,                                                  "unit": "amps"        }, "name": "Battery current, battery sensor"},
+    {"id": "CEED_BAT_V_BATSENS",        "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 18.75,                   "mul": 12.75, "div": 255,   "add": 6,                                     "unit": "volts"       }, "name": "Battery voltage, battery sensor"},
+    {"id": "CEED_BAT_T_BATSENS",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 87.5,    "min": -40,                   "div": 2,     "add": -40,                                   "unit": "celsius"     }, "name": "Battery temperature, battery sensor"},
+    {"id": "CEED_BAT_ST_CHG_BATSENS",   "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 100,                                                                                               "unit": "percent"     }, "name": "Battery state of charge, battery sensor"},
+    {"id": "CEED_BAT_ST_HEALTH",        "path": "Battery", "fmt": {"bix": 80,  "len": 8,  "max": 100,                                                                                               "unit": "percent"     }, "name": "Battery state of health, battery sensor"},
+    {"id": "CEED_BAT_ST_FUNCTION",      "path": "Battery", "fmt": {"bix": 88,  "len": 8,  "max": 12.75,                   "mul": 12.75, "div": 255,                                                 "unit": "volts"       }, "name": "Battery state of function, battery sensor"},
+    {"id": "CEED_BAT_CAP_BATSENS",      "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 255,                                                                                               "unit": "ampereHours" }, "name": "Battery capacity, battery sensor"},
+    {"id": "CEED_RESPONSE_ERROR",       "path": "Battery", "fmt": {"bix": 178, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Response error from battery sensor flag, battery sensor"},
+    {"id": "CEED_BATSENS_INVALID_COND", "path": "Battery", "fmt": {"bix": 179, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Battery sensor invalid condition flag, battery sensor"},
+    {"id": "CEED_BAT_QUIESCENT",        "path": "Battery", "fmt": {"bix": 180, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Battery quiescent current flag, battery sensor"},
+    {"id": "CEED_BAT_CRANK_ENG_FLAG",   "path": "Battery", "fmt": {"bix": 181, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Battery is in use to crank the engine flag, battery sensor"},
+    {"id": "CEED_BAT_HEALTH_AGING",     "path": "Battery", "fmt": {"bix": 182, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Battery health aging flag, battery sensor"},
+    {"id": "CEED_BAT_CHG_FLAG_BATSENS", "path": "Battery", "fmt": {"bix": 183, "len": 1,  "max": 1,                                                                                                 "unit": "offon"       }, "name": "Battery charge flag, battery sensor"},
+    {"id": "CEED_BAT_CURRENT",          "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 3276.7,  "min": -3276.8, "mul": 1000,  "div": 10000,             "sign": true,                     "unit": "amps"        }, "name": "Battery current"},
+    {"id": "CEED_BAT_V",                "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 71.535,                  "mul": 10,    "div": 10000, "add": 6,                                     "unit": "volts"       }, "name": "Battery voltage"},
+    {"id": "CEED_BAT_T",                "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 32767.5,                               "div": 2,                               "nullmax": 32767.5, "unit": "celsius"     }, "name": "Battery temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED29"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -714,16 +714,16 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
-    {"id": "CEED_ENGINE_RPM_TCM",        "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
-    {"id": "CEED_VEHICLE_SPEED",         "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
-    {"id": "CEED_APP_REL_TCM",           "path": "Control",      "fmt": {"bix": 64,  "len": 8,  "max": 100,                   "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Relative accelerator pedal position"},
-    {"id": "CEED_TURBINE_SPEED",         "path": "Engine",       "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Turbine speed"},
-    {"id": "CEED_OUTPUT_SPEED",          "path": "Engine",       "fmt": {"bix": 88,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Output speed"},
-    {"id": "CEED_ATF_T",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                          "add": -40,  "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
-    {"id": "CEED_TORQUE_CONVERTER_SLIP", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,             "div": 4,   "add": -512, "unit": "rpm"               }, "name": "Torque converter slip"},
-    {"id": "CEED_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear"},
-    {"id": "CEED_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
-    {"id": "CEED_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
+    {"id": "CEED_ENGINE_RPM_TCM",        "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "blsb": true,    "max": 16383.75,                         "div": 4,                                "unit": "rpm" },                                                  "name": "Engine RPM"},
+    {"id": "CEED_VEHICLE_SPEED",         "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                            "unit": "kilometersPerHour" },            "name": "Vehicle speed",                            "suggestedMetric": "speed"},
+    {"id": "CEED_APP_REL_TCM",           "path": "Control",      "fmt": {"bix": 64,  "len": 8,  "max": 100,                       "mul": 100, "div": 255,              "unit": "percent"           },            "name": "Relative accelerator pedal position"},
+    {"id": "CEED_TURBINE_SPEED",         "path": "Engine",       "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                              "div": 4,                "unit": "rpm"               },            "name": "Turbine speed"},
+    {"id": "CEED_OUTPUT_SPEED",          "path": "Engine",       "fmt": {"bix": 88,  "len": 16, "max": 16383.75,                              "div": 4,                "unit": "rpm"               },            "name": "Output speed"},
+    {"id": "CEED_ATF_T",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                              "add": -40,  "unit": "celsius"           },            "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "CEED_TORQUE_CONVERTER_SLIP", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,                 "div": 4,   "add": -512, "unit": "rpm"               },            "name": "Torque converter slip"},
+    {"id": "CEED_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                            "unit": "scalar"            },            "name": "Current gear"},
+    {"id": "CEED_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                            "unit": "scalar"            },            "name": "Commanded gear"},
+    {"id": "CEED_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                            "unit": "scalar"            },            "name": "Brake pedal"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"21": "A1"}, "freq": 0.25,
   "signals": [
