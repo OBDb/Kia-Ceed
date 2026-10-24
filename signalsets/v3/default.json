@@ -466,7 +466,7 @@
   "signals": [
     {"id": "CEED_BATTERY_V",                "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage"},
     {"id": "CEED_BATTERY_V_AFTER_IGNITION", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage after ignition"},
-    {"id": "CEED_BATTERY_SOC",              "path": "Battery", "fmt": {"bix": 48,  "len": 8, "max": 255,                                                                   "nullmax": 255, "unit": "percent" }, "name": "12V battery state of charge"},
+    {"id": "CEED_BATTERY_SOC",              "path": "Battery", "fmt": {"bix": 48,  "len": 8, "max": 255,                                                                   "nullmax": 255, "unit": "scalar"  }, "name": "12V battery state of charge raw"},
     {"id": "CEED_EIT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Intake air temperature"},
     {"id": "CEED_EOT",                      "path": "Engine",  "fmt": {"bix": 272, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
