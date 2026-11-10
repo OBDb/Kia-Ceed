@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 164
     CEED_CLUTCH_2_T: 174
-    CEED_GEAR_CUR: 0
     CEED_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -17,7 +16,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 216
     CEED_CLUTCH_2_T: 214
-    CEED_GEAR_CUR: 0
     CEED_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -31,7 +29,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 104
     CEED_CLUTCH_2_T: 98
-    CEED_GEAR_CUR: 0
     CEED_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -45,7 +42,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 142
     CEED_CLUTCH_2_T: 152
-    CEED_GEAR_CUR: 0
     CEED_GEAR_NXT: 0
   response: |-
     7E910326201A4FFFFFF
@@ -59,7 +55,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 90
     CEED_CLUTCH_2_T: 72
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -73,7 +69,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 116
     CEED_CLUTCH_2_T: 116
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -87,7 +83,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 164
     CEED_CLUTCH_2_T: 164
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -101,7 +97,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 16
     CEED_CLUTCH_2_T: -10
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -115,7 +111,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 134
     CEED_CLUTCH_2_T: 118
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -129,7 +125,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 108
     CEED_CLUTCH_2_T: 84
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -143,7 +139,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 48
     CEED_CLUTCH_2_T: 32
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -157,7 +153,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 172
     CEED_CLUTCH_2_T: 132
-    CEED_GEAR_CUR: 14
     CEED_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -171,7 +166,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 44
     CEED_CLUTCH_2_T: 36
-    CEED_GEAR_CUR: 3
+    CEED_GEAR_CUR: '3'
     CEED_GEAR_NXT: 3
   response: |-
     7E910326201A4FFFFFF
@@ -185,7 +180,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 12
     CEED_CLUTCH_2_T: 32
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -199,7 +194,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 46
     CEED_CLUTCH_2_T: 26
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -213,7 +208,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 124
     CEED_CLUTCH_2_T: 124
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -227,7 +222,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 206
     CEED_CLUTCH_2_T: 146
-    CEED_GEAR_CUR: 14
     CEED_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -241,7 +235,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 126
     CEED_CLUTCH_2_T: 114
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -255,7 +249,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 44
     CEED_CLUTCH_2_T: 50
-    CEED_GEAR_CUR: 3
+    CEED_GEAR_CUR: '3'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -269,7 +263,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 184
     CEED_CLUTCH_2_T: 166
-    CEED_GEAR_CUR: 14
     CEED_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -283,7 +276,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 174
     CEED_CLUTCH_2_T: 140
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -297,7 +290,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: -40
     CEED_CLUTCH_2_T: -32
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -311,7 +304,6 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 300
     CEED_CLUTCH_2_T: 300
-    CEED_GEAR_CUR: 14
     CEED_GEAR_NXT: 14
   response: |-
     7E910326201A4FFFFFF
@@ -325,7 +317,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 170
     CEED_CLUTCH_2_T: 188
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -339,7 +331,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 300
     CEED_CLUTCH_2_T: -30
-    CEED_GEAR_CUR: 1
+    CEED_GEAR_CUR: '1'
     CEED_GEAR_NXT: 1
   response: |-
     7E910326201A4FFFFFF
@@ -353,7 +345,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 124
     CEED_CLUTCH_2_T: 110
-    CEED_GEAR_CUR: 6
+    CEED_GEAR_CUR: '6'
     CEED_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
@@ -367,7 +359,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 160
     CEED_CLUTCH_2_T: 180
-    CEED_GEAR_CUR: 2
+    CEED_GEAR_CUR: '2'
     CEED_GEAR_NXT: 2
   response: |-
     7E910326201A4FFFFFF
@@ -381,7 +373,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 150
     CEED_CLUTCH_2_T: 160
-    CEED_GEAR_CUR: 4
+    CEED_GEAR_CUR: '4'
     CEED_GEAR_NXT: 4
   response: |-
     7E910326201A4FFFFFF
@@ -395,7 +387,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 100
     CEED_CLUTCH_2_T: 88
-    CEED_GEAR_CUR: 7
+    CEED_GEAR_CUR: '7'
     CEED_GEAR_NXT: 7
   response: |-
     7E910326201A4FFFFFF
@@ -409,7 +401,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 80
     CEED_CLUTCH_2_T: 64
-    CEED_GEAR_CUR: 6
+    CEED_GEAR_CUR: '6'
     CEED_GEAR_NXT: 6
   response: |-
     7E910326201A4FFFFFF
@@ -423,7 +415,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 116
     CEED_CLUTCH_2_T: 92
-    CEED_GEAR_CUR: 7
+    CEED_GEAR_CUR: '7'
     CEED_GEAR_NXT: 7
   response: |-
     7E910326201A4FFFFFF
@@ -437,7 +429,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 108
     CEED_CLUTCH_2_T: 86
-    CEED_GEAR_CUR: 6
+    CEED_GEAR_CUR: '6'
     CEED_GEAR_NXT: 6
   response: |-
     7E910326201A4FFFFFF
@@ -451,7 +443,7 @@ test_cases:
 - expected_values:
     CEED_CLUTCH_1_T: 134
     CEED_CLUTCH_2_T: 124
-    CEED_GEAR_CUR: 5
+    CEED_GEAR_CUR: '5'
     CEED_GEAR_NXT: 5
   response: |-
     7E910326201A4FFFFFF
