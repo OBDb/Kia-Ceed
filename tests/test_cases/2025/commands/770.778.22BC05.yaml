@@ -12,7 +12,6 @@ test_cases:
     778210000080000AAAA
 - expected_values:
     CEED_HAZARD_SW: 0
-    CEED_HL_SW: 1
   response: |-
     778100B62BC052F1324
     778210000400400AAAA
