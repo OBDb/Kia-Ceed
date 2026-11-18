@@ -124,25 +124,25 @@
         }}
     }
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CEED_SENS_1_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 1"},
     {"id": "CEED_SENS_1_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 2"},
     {"id": "CEED_SENS_1_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "dbg": true, "cmd": {"22": "C00D"}, "freq": 30,
   "signals": [
     {"id": "CEED_SENS_2_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 1"},
     {"id": "CEED_SENS_2_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 2"},
     {"id": "CEED_SENS_2_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "dbg": true, "cmd": {"22": "C00E"}, "freq": 30,
   "signals": [
     {"id": "CEED_SENS_3_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 1"},
     {"id": "CEED_SENS_3_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 2"},
     {"id": "CEED_SENS_3_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CEED_SENS_4_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 1"},
     {"id": "CEED_SENS_4_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 2"},
@@ -672,7 +672,7 @@
   "signals": [
     {"id": "CEED_REQ_TQ_LIM_TRACTION", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Requested torque limitation from traction control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "ED07"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "ED07"}, "freq": 5,
   "signals": [
     {"id": "CEED_EOT_7E0", "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 149.9965, "min": -50, "mul": 0.7843, "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
