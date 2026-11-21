@@ -1,7 +1,9 @@
 { "ecu": [
     { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7C6", "type": "cluster" },
-    { "hdr": "7D4", "type": "steering" }
+    { "hdr": "7D4", "type": "steering" },
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
